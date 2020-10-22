@@ -1,0 +1,24 @@
+{
+  "name": "start-app-node-ts",
+  "version": "1.0.0",
+  "description": "StartApp-NodeTs",
+  "main": "index.js",
+  "scripts": {
+    "tsc": "tsc",
+    "dev": "node dist/src/index.js",
+    "det": "nodemon --exec \"ts-node\" --cache-directory .tscache ./src/index.ts"
+  },
+  "author": {
+    "name": ""
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.8",
+    "@types/node": "^14.14.2",
+    "nodemon": "^2.0.6",
+    "ts-node": "^9.0.0",
+    "typescript": "^4.0.3"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
